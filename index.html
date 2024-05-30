@@ -3,52 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sinovuyo Caroline Saul</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+    <!-- Import materialize.css -->
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/> -->
+    <!-- Link to the new CSS file -->
+    <link rel="stylesheet" href="new.css">
 </head>
 <body>
     <div class="container">
-<h2>Sinovuyo Caroline Saul</h2>
-    <h5>Mechanical engineering graduate</h5>
-    <div class="row">
-        <div class="col-6">
-      <p>
-        <img src="/{{user.photo}}" alt="" width="200" >
-    </p>  
-    </div>
-    </div>
-    
+        <h2>{{user.fullName}}</h2>
+        <h5>Mechanical Engineering Graduate</h5>
+        
+        <div class="row">
+            <div class="col s6">
+                <img src="/{{user.photo}}" alt="Profile Picture" width="200">
+            </div>
+        </div>
 
-    <div class="nav ul a span.badge">
-        <h2>Contacts</h2>
-<p>
-        {{user.phone}}
-    </p>
-    <p>
-        {{user.email}}
-    </p>
-    </div>
-    
-<h2>Education</h2>
-<p>
-    {{education.Course}}
-</p>
-<p>
-    {{education.institutionName}}
-</p>
-<p>
-    {{education.year}}
-    
-</p>
-<h2>Subjects</h2>
- <p>
- {{favouriteSubjects.name}}
+        <div class="contact">
+            <div class="section-title">CONTACT</div>
+            <p>{{user.email}}</p>
+            <p>{{user.linkedin}}</p>
+            <p>{{user.phone}}</p>
+            <p>Doornfontein Johannesburg</p>
+        </div>
+        
+        <div class="objective">
+            <div class="section-title">OBJECTIVE</div>
+            <p>I am a dedicated mechanical engineering graduate currently pursuing an honours degree. With a strong academic foundation and keen enthusiasm for innovation in process systems and using data analysis tools to uncover valuable insights applicable to improvement in the cross-functional departments within the bank. Eager to contribute technical expertise and problem-solving skills to a dynamic team, while continuously seeking opportunities for professional growth and development.</p>
+        </div>
+        
+        <div class="skills">
+            <div class="section-title">SKILLS</div>
+            <ul>
+                <li>Effective communication</li>
+                <li>Proficient in Microsoft Office</li>
+                <li>Working knowledge of R studios, JavaScript, Python, Arduino Uno</li>
+                <li>Research</li>
+                <li>Data Analysis</li>
+                <li>Report writing</li>
+                <li>Time management</li>
+                <li>Adaptability</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
 
- </p>
+        <div class="interests">
+            <div class="section-title">INTERESTS</div>
+            <ul>
+                <li>Data Science</li>
+                <li>Artificial Intelligence</li>
+                <li>Innovation</li>
+                <li>Software programming</li>
+            </ul>
+        </div>
+        
+        <div class="education">
+            <div class="section-title">EDUCATION</div>
+            <p>{{education.year}} - {{education.Course}}<br>
+            {{education.institutionName}}<br>
+            {{education.description}}</p>
+        </div>
+
+        <div class="certifications">
+            <div class="section-title">CERTIFICATIONS</div>
+            <ul>
+                <li>4IR Technologies Bootcamp</li>
+                <li>HUB Accenture</li>
+            </ul>
+        </div>
     </div>
     
+    <!-- Import jQuery before materialize.js -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script> -->
 </body>
 </html>
