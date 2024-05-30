@@ -1,17 +1,20 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Sinovuyo Caroline Saul",
+        "photo" : "yhoo.jpeg",
+        "phone" : "0728490103",
+        "email" : "sinovuyosaul20@gmail.com",
+        "linkedin" :""
     },
+
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
+        "Course" : "BEng Tech Mechanical",
+        "institutionName" : "University of Johannesburg ",
+        "year" : "2023",
         "description" : ""
     },
     "foreignLanguage" : {
-        "language" : "",
+        "language" : "IsiXhosa",
         "phrases" : [{
             "englishPhrase" : "",
             "foreignLanguage" : ""
@@ -23,12 +26,12 @@
     },
     "favouriteSubjects" : [
         {
-            "name" : "",
-            "description" : ""
+            "name" : " Engineering Design",
+            "description" : "Research of innovative engineering ideas"
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Workshop Practice",
+            "description" : "hands on course that helps  ne learn basic handskills"
         },
         {
             "name" : "",

@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+<h2>Sinovuyo Caroline Saul</h2>
+    <h5>Mechanical engineering graduate</h5>
+    <div class="row">
+        <div class="col-6">
+      <p>
+        <img src="/{{user.photo}}" alt="" width="200" >
+    </p>  
+    </div>
+    </div>
+    
+
+    <div class="nav ul a span.badge">
+        <h2>Contacts</h2>
+<p>
+        {{user.phone}}
+    </p>
+    <p>
+        {{user.email}}
+    </p>
+    </div>
+    
+<h2>Education</h2>
+<p>
+    {{education.Course}}
+</p>
+<p>
+    {{education.institutionName}}
+</p>
+<p>
+    {{education.year}}
+    
+</p>
+<h2>Subjects</h2>
+ <p>
+ {{favouriteSubjects.name}}
+
+ </p>
+    </div>
+    
 </body>
 </html>
