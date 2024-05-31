@@ -1,7 +1,7 @@
 {
     "user" : {
         "fullName" : "Sinovuyo Caroline Saul",
-        "photo" : "yhoo.jpeg",
+        "photo" : "./yhoo.jpeg",
         "phone" : "0728490103",
         "email" : "sinovuyosaul20@gmail.com",
         "linkedin" :""
